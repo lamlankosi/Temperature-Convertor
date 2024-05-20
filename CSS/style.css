@@ -40,7 +40,8 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    color: white;
+    background-color: green;
 }
 
 #result {
@@ -49,3 +50,23 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2em;
 }
+
+@media (width < 430px){
+    .container{
+        padding: 15px;
+    }
+
+    input[type="number"], button {
+        width: 90%;
+        padding:10px;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+
+    #result{
+        font-size: 1rem;
+    }
+}
+
